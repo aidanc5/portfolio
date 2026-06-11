@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+    font-family: 'Baloo 2', sans-serif;
+    background-color: #FFF6E6;
+    color: #4A3A2B;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #F4B55F;
+    color: #4A3A2B;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+section {
+    max-width: 900px;
+    margin: 60px auto;
+    padding: 40px;
+    text-align: center;
+}
+
+h2 {
+    color: #4D8E82;
+}
+
+.dragonite-bg {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+
+    width: 500px;
+    height: 500px;
+
+    background-image: url("dragonite.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    opacity: 0.3; /* Increase while testing */
+
+    transform: translate(-50%, -50%);
+
+    z-index: 0;
+
+    animation: float 6s ease-in-out infinite;
+
+    pointer-events: none;
+}
+
+header,
+section {
+    position: relative;
+    z-index: 1;
+}
+
+.project-card {
+    background-color: #ffc75f;
+    padding: 5px;
+    border-radius: 1px;
+    margin-top: 5px;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+nav a {
+    color: #4D8E82;
+    text-decoration: none;
+}
+
+
+h1 {
+    font-size: 4em;
+    margin: 0;
+}
+
+.subtitle {
+    font-size: 30px;
+}
+
+.links {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.links a {
+    text-decoration: none;
+    color: white;
+    background-color: #2a2a2a;
+    padding: 10px 15px;
+    border-radius: 8px;
+    transition: 0.2s;
+}
+
+.links a:hover {
+    background-color: #444;
+    transform: scale(1.05);
+}
+.links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.skills {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.skill {
+    text-align: center;
+    transition: 0.2s;
+}
+
+.skill i {
+    font-size: 50px;
+}
+
+.skill:hover {
+    transform: scale(1.1);
+}
