@@ -1,66 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
-<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;600&display=swap" rel="stylesheet">
-<nav>
-    <a href="#about">About</a>
-    <a href="#projects">Projects</a>
-    <a href="#contact">Contact</a>
-</nav>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
     <link rel="stylesheet" href="styles.css">
-
 </head>
 <body>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
     <div class="dragonite-bg"></div>
+
     <header>
         <h1>Aidan Calvert</h1>
-        <p class="subtitle">Aspiring Game Designer</p>
+        <p class="subtitle">Computer Science Student</p>
     </header>
+
     <section id="about">
         <h2>About Me</h2>
-        <p>I am a passionate aspiring game designer who aims to create what others will love. My goal is to elevate games to a state of true art. Some of my personal favorite games include Pokemon, League of Legends, Apex Legends, and Destiny.</p>
+        <p>I am a passionate computer science student who aims to create what others will love. My goal is to elevate applications to a state of true art. Some of my personal favorite games include Pokemon, League of Legends, Apex Legends, and Destiny.</p>
     </section>
-<section id="skills">
-    <h2>Skills</h2>
 
-    <div class="skills">
-        <div class="skill">
-            <i class="devicon-html5-plain colored"></i>
-            <p>HTML</p>
-        </div>
+    <section id="skills">
+        <h2>Skills</h2>
 
-        <div class="skill">
-            <i class="devicon-css3-plain colored"></i>
-            <p>CSS</p>
-        </div>
+        <div class="skills">
+            <div class="skill">
+                <i class="devicon-html5-plain colored"></i>
+                <p>HTML</p>
+            </div>
 
-        <div class="skill">
-            <i class="devicon-python-plain colored"></i>
-            <p>Python</p>
+            <div class="skill">
+                <i class="devicon-css3-plain colored"></i>
+                <p>CSS</p>
+            </div>
+
+            <div class="skill">
+                <i class="devicon-python-plain colored"></i>
+                <p>Python</p>
+            </div>
+
+            <div class="skill">
+                <i class="devicon-javascript-plain colored"></i>
+                <p>JavaScript</p>
+            </div>
         </div>
-    </div>
-</section>
-</div>
+    </section>
+
     <section id="projects">
         <h2>Projects</h2>
-        <div class="project-card">
-            <h3>Portfolio Website</h3>
-            <p>A first run at creating a simple portfolio display! Made using HTML and CSS. (Hint: Youre looking at it right now!)</p>
+        <div class="project-grid">
+            <div class="project-card">
+                <h3>Portfolio Website</h3>
+                <p>I built this personal portfolio using HTML and CSS to showcase my interests, skills, and projects.
+                <p>Hint: You're looking at it right now!</p>
+                <span class="tag">Completed</span>
+            </div>
+
+            <div class="project-card">
+                <h3>charity: water Game</h3>
+                <p>A fun and engaging game designed to raise awareness about clean water access through the repetitive gameplay mechanics.</p>
+                <p><a href="https://aidanc5.github.io/07-cw-game-water-quest-completed/" target="_blank" rel="noopener noreferrer">Play the game</a></p>
+                <span class="tag">Completed</span>
+            </div>
+
+            <div class="project-card">
+                <h3>Localized Intel Sustainability Timeline</h3>
+                <p>Fully built and deployed a localized sustainability timeline for Intel, showcasing their environmental initiatives and progress.</p>
+                <p><a href="https://aidanc5.github.io/03-project-intel-localization/" target="_blank" rel="noopener noreferrer">View project</a></p>
+                <span class="tag">Completed</span>
+            </div>
+
+            <div class="project-card">
+                <h3>Nasa Space Explorer</h3>
+                <p>A web application that allows users to utilize AI to generate space images based on the users inputed timeline.</p>
+                <p><a href="https://aidanc5.github.io/07-nasa-space-explorer/" target="_blank" rel="noopener noreferrer">View project</a></p>
+                <span class="tag">Completed</span>
+            </div>
+
+            <div class="project-card">
+                <h3>Intel Sustainability Summit Check-In</h3>
+                <p>A web application for attendees to check in for the Intel Sustainability Summit while allowing to track progress of their engagement.</p>
+                <p><a href="https://aidanc5.github.io/05-prj-intel-event-check-in/" target="_blank" rel="noopener noreferrer">View project</a></p>
+                <span class="tag">In Progress</span>
+            </div>
         </div>
-        <p>More Projects Coming Soon!</p>
     </section>
+
     <section id="contact">
         <h2>Contact</h2>
-        Please feel free to reach out anytime!
-    <div class="links">
-        <a href="https://github.com/aidanc5" target="_blank">🐙 GitHub</a>
-        <a href="https://www.linkedin.com/in/aidan-calvert-9583022a4/" target="_blank">💼 LinkedIn</a>
-    </div>
-</section>
+        <p>Please feel free to reach out anytime!</p>
+        <div class="links">
+            <a href="https://github.com/aidanc5" target="_blank">🐙 GitHub</a>
+            <a href="https://www.linkedin.com/in/aidan-calvert-9583022a4/" target="_blank">💼 LinkedIn</a>
+        </div>
+    </section>
 </body>
 </html>
 
